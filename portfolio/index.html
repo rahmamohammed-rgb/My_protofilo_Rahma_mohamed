@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rahma Mohamed — Front-End Developer</title>
+<meta name="description" content="Front-end developer in Cairo building responsive, fast websites and React interfaces.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Public+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Rahma Mohamed<span>.</span></a>
+    <ul id="menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#credentials">Education</a></li>
+      <li><button class="theme-btn" id="theme" type="button" aria-label="Switch to dark mode">
+        <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <span id="theme-label">Dark</span>
+      </button></li>
+    </ul>
+    <a class="nav-cta" href="#contact">Let's connect</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow reveal">Hi, my name is Rahma Mohamed</p>
+      <h1 class="reveal d2">I'm a front-end developer building responsive websites and React interfaces</h1>
+      <p class="lede reveal d3">I turn designs and ideas into <b>fast, accessible</b> pages with HTML, CSS, JavaScript and React — tested on every screen size before they ship.</p>
+      <div class="cta-row reveal d3">
+        <a class="btn btn-solid" href="#contact">Start a project</a>
+        <a class="btn btn-ghost" href="#work">See my work</a>
+      </div>
+    </div>
+    <figure class="portrait reveal d2">
+      <img src="images/hero.webp" alt="Illustrated portrait of Rahma Mohamed coding on a laptop" width="560" height="560">
+    </figure>
+  </div>
+</header>
+
+<section id="about" class="about">
+  <div class="wrap two-col">
+    <div>
+      <h2>About me</h2>
+      <p>I'm Rahma, a front-end developer and Systems &amp; Computer Engineering graduate from Al-Azhar University, where I finished third in my class.</p>
+      <p>Engineering taught me to break a problem into parts and solve it properly; front-end is where I get to make that work visible. I write semantic HTML, layout with Flexbox and Grid, and build component-based interfaces in React with clean state management.</p>
+      <p>I'm currently training in React with the Digital Egypt Pioneers Initiative (DEPI), and I build a new project with every concept I learn — because a page that only works on my laptop isn't finished.</p>
+      <p>I work well with feedback, keep clients updated as things progress, and care about the small details: spacing that stays consistent, layouts that hold up at 375px, and buttons that respond the way you expect.</p>
+    </div>
+    <div>
+      <ul class="facts">
+        <li><b>Based in</b> Cairo, Egypt — available remotely</li>
+        <li><b>Focus</b> Responsive websites &amp; React interfaces</li>
+        <li><b>Stack</b> HTML5, CSS3, JavaScript, React, Git</li>
+        <li><b>Languages</b> Arabic (native), English (B1)</li>
+        <li><b>Status</b> Open to freelance projects and junior front-end roles</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <h2>What I can build for you</h2>
+    <p class="sec-note">Small, clearly scoped front-end work — delivered as clean, documented code you or your team can keep building on.</p>
+    <div class="services">
+      <article class="service">
+        <h3>Responsive websites</h3>
+        <p>Business, landing and portfolio pages built mobile-first, so the layout holds up from a 375px phone to a wide desktop screen.</p>
+      </article>
+      <article class="service">
+        <h3>Design to code</h3>
+        <p>Your Figma file, PSD or reference site turned into pixel-accurate HTML and CSS, with real semantic markup instead of stacked divs.</p>
+      </article>
+      <article class="service">
+        <h3>React interfaces</h3>
+        <p>Reusable components, props and state wired up properly — forms, filters, tabs, galleries and dynamic sections that stay maintainable.</p>
+      </article>
+      <article class="service">
+        <h3>Fixes &amp; improvements</h3>
+        <p>Broken mobile layouts, overlapping sections, slow-loading images or a site that looks wrong in one browser — diagnosed and repaired.</p>
+      </article>
+      <article class="service">
+        <h3>Third-party embeds</h3>
+        <p>Google Maps, contact forms, galleries and API-driven content connected and styled to match the rest of the page.</p>
+      </article>
+      <article class="service">
+        <h3>Deployment</h3>
+        <p>Your site version-controlled on GitHub and published live, so updates are one commit away rather than a manual file upload.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <p class="sec-note">The tools I reach for every day, grouped by what I use them for.</p>
+    <div class="skills">
+      <div class="skillset">
+        <h3>Markup &amp; styling</h3>
+        <ul class="tags">
+          <li>HTML5</li><li>Semantic markup</li><li>CSS3</li><li>Flexbox</li><li>CSS Grid</li><li>Media queries</li><li>Bootstrap breakpoints</li><li>Mobile-first design</li>
+        </ul>
+      </div>
+      <div class="skillset">
+        <h3>JavaScript &amp; React</h3>
+        <ul class="tags">
+          <li>JavaScript (ES6+)</li><li>DOM manipulation</li><li>React</li><li>Components &amp; props</li><li>Hooks &amp; state</li><li>Fetch &amp; REST APIs</li>
+        </ul>
+      </div>
+      <div class="skillset">
+        <h3>Workflow</h3>
+        <ul class="tags">
+          <li>Git</li><li>GitHub</li><li>GitHub Pages</li><li>Chrome DevTools</li><li>Cross-browser testing</li><li>Accessible markup</li>
+        </ul>
+      </div>
+      <div class="skillset">
+        <h3>How I work</h3>
+        <ul class="tags">
+          <li>Clear communication</li><li>Deadline discipline</li><li>Attention to detail</li><li>Problem solving</li><li>Open to feedback</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <h2>Selected work</h2>
+    <p class="sec-note">Three front-end builds, and what I actually solved in each one.</p>
+
+    <article class="project">
+      <dl class="meta">
+        <dt>Type</dt><dd>Business website</dd>
+        <dt>Built with</dt><dd>HTML5, CSS3</dd>
+        <dt>Role</dt><dd>Design &amp; front-end</dd>
+      </dl>
+      <div>
+        <h3>Bakery — single-page business site</h3>
+        <ul>
+          <li>Built a full <b>single-page responsive website</b> for a bakery: hero, menu, about, location and contact, all in semantic HTML5.</li>
+          <li>Laid out every section with <b>Flexbox</b> and a mobile-first structure, with custom media queries at 576px, 768px and 992px so the grid reflows cleanly instead of breaking.</li>
+          <li>Embedded a <b>live Google Maps</b> frame for the shop location, and traced and fixed an overlap between two stacked sections that only appeared on tablet widths.</li>
+        </ul>
+        <a class="link" href="https://rahmamohammed-rgb.github.io/bakery_website/" target="_blank" rel="noopener">View live site</a>
+      </div>
+    </article>
+
+    <article class="project">
+      <dl class="meta">
+        <dt>Type</dt><dd>Portfolio template</dd>
+        <dt>Built with</dt><dd>HTML5, CSS3</dd>
+        <dt>Role</dt><dd>Front-end</dd>
+      </dl>
+      <div>
+        <h3>Fokir — multi-section portfolio layout</h3>
+        <ul>
+          <li>Developed a <b>multi-section portfolio layout</b> with a fixed navigation bar, services grid, project showcase and contact form.</li>
+          <li>Kept the CSS organised around <b>reusable classes and consistent spacing</b>, so a new section can be added without rewriting the stylesheet.</li>
+          <li>Matched the original design closely while keeping the markup readable — headings in order, real buttons and labelled form fields.</li>
+        </ul>
+        <a class="link" href="https://github.com/rahmamohammed-rgb" target="_blank" rel="noopener">Code on GitHub</a>
+      </div>
+    </article>
+
+    <article class="project">
+      <dl class="meta">
+        <dt>Type</dt><dd>Personal site</dd>
+        <dt>Built with</dt><dd>HTML5, CSS3</dd>
+        <dt>Role</dt><dd>Design &amp; front-end</dd>
+      </dl>
+      <div>
+        <h3>This portfolio</h3>
+        <ul>
+          <li>Designed and coded from scratch: <b>no template, no page builder</b> — a custom type scale, colour tokens and a layout grid I wrote myself.</li>
+          <li>Adapts to <b>light and dark mode</b> automatically, respects reduced-motion settings, and keeps keyboard focus visible throughout.</li>
+          <li>Ships as <b>three small files</b> (HTML, CSS, JavaScript) with a compressed WebP image, so the page loads fast on a mobile connection.</li>
+        </ul>
+        <a class="link" href="#contact">Hire me to build yours</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="credentials">
+  <div class="wrap">
+    <h2>Education &amp; training</h2>
+    <div class="creds">
+      <div>
+        <div class="degree">
+          <h3>B.Sc. Systems &amp; Computer Engineering</h3>
+          <p>Al-Azhar University, Faculty of Engineering — 2026</p>
+          <span class="rank">93.13% · Ranked 3rd in class · Excellent with Honours</span>
+        </div>
+      </div>
+      <div>
+        <ul class="cert-list">
+          <li><b>Front-End Development (React)</b> — Digital Egypt Pioneers Initiative (DEPI), 2026–present</li>
+          <li><b>Portfolio Building &amp; Freelancing</b> — DEPI Freelancing Track</li>
+          <li><b>Business English &amp; Professional Soft Skills</b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <p class="eyebrow contact-eyebrow">Get in touch</p>
+    <h2>Let's build something together</h2>
+    <div class="contact-grid">
+      <div>
+        <p>Open to freelance front-end projects and junior front-end roles. Reach out directly, or send a message using the form.</p>
+        <ul class="contact-list">
+          <li><a href="mailto:rahmamohammed3456@gmail.com"><span class="ic">@</span>rahmamohammed3456@gmail.com</a></li>
+          <li><a href="https://wa.me/201095091124" target="_blank" rel="noopener"><span class="ic">WA</span>WhatsApp — 01095091124</a></li>
+          <li><a href="https://linkedin.com/in/rahma-mohammad-18a5a3285" target="_blank" rel="noopener"><span class="ic">in</span>LinkedIn</a></li>
+          <li><a href="https://github.com/rahmamohammed-rgb" target="_blank" rel="noopener"><span class="ic">GH</span>GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="form-card">
+        <div class="field">
+          <label for="f-name">Name</label>
+          <input id="f-name" type="text" placeholder="Your name" autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="f-email">Email</label>
+          <input id="f-email" type="email" placeholder="you@example.com" autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="f-msg">Message</label>
+          <textarea id="f-msg" rows="5" placeholder="Tell me about your project..."></textarea>
+        </div>
+        <button class="send" id="send">Send message</button>
+        <p class="form-note" id="note">This opens your email app with the message ready to send.</p>
+      </div>
+    </div>
+  </div>
+  <footer>Designed and coded by Rahma Mohamed — Cairo, Egypt</footer>
+</section>
+
+</body>
+</html>
