@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded",function(){
 
   /* Sequential reveal: every text block starts hidden and appears one after another, on its own, as it comes into view */
   if(canReveal){
-    var parts='h1, .role, .info, .lede, .cta-row, h2, .sec-note, .eyebrow, .about p, .value-title, .value li, .facts li, .service, .skillset, .shot, .pbody h3, .ptags, .pblock, .pbody .link, .degree, .cert-list li, .contact > .wrap > .contact-grid > div > p, .contact-list li, .form-card, footer';
+    var parts='.hello, h1, .role, .info, .lede, .cta-row, h2, .sec-note, .eyebrow, .about p, .value-title, .value li, .facts li, .service, .skillset, .shot, .pbody h3, .ptags, .pblock, .pbody .link, .degree, .quote, .cert-list li, .contact > .wrap > .contact-grid > div > p, .contact-list li, .form-card, footer';
     var items=Array.prototype.slice.call(document.querySelectorAll(parts));
     var STEP=170, queue=[], timer=null, last=Date.now()+250;
     function onScreen(el){var r=el.getBoundingClientRect();return r.bottom>0&&r.top<window.innerHeight;}

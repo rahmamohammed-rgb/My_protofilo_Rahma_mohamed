@@ -102,6 +102,7 @@ a{color:inherit}
 .hero{padding:clamp(48px,8vw,96px) 0 clamp(40px,6vw,72px)}
 .hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(24px,4vw,56px);align-items:center}
 .eyebrow{font-size:clamp(17px,2vw,20px);color:var(--ink-soft);font-weight:400;margin:0 0 16px}
+.hello{font-family:var(--text);font-size:clamp(16px,2vw,19px);font-weight:500;color:var(--peri);margin:0 0 6px;letter-spacing:.01em}
 h1{
   font-family:"Space Grotesk","Segoe UI",Helvetica,Arial,sans-serif;
   font-style:normal;
@@ -200,6 +201,7 @@ h2{
 .pblock{margin:0 0 12px;color:var(--ink-soft);font-size:16px}
 .pblock b{color:var(--ink);font-weight:700}
 .link{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--peri);text-decoration:none;border-bottom:2px solid color-mix(in srgb,var(--peri) 35%, transparent);padding-bottom:2px;margin-top:6px;transition:border-color .3s ease,gap .3s ease}
+.plinks{display:flex;flex-wrap:wrap;gap:6px 24px;margin:0}
 .link:hover{border-bottom-color:var(--peri);gap:12px}
 @media (max-width:760px){.project{grid-template-columns:1fr;gap:18px}}
 
@@ -213,6 +215,13 @@ h2{
 .rank{display:inline-block;margin-top:14px;background:color-mix(in srgb,var(--amber) 22%, transparent);color:var(--ink);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:700}
 .cert-list{list-style:none;margin:0;padding:0}
 .cert-list li{padding:11px 0;border-bottom:1px solid var(--line);font-size:16px}
+
+.degree p + p{margin-top:12px}
+#experience .degree + .degree{margin-top:18px}
+.quotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.quote{margin:0;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px}
+.quote blockquote{margin:0 0 16px;font-size:18px;line-height:1.6}
+.quote figcaption{color:var(--ink-soft);font-size:15px}
 
 /* ---------- contact ---------- */
 .contact{background:var(--paper-2);border-top:1px solid var(--line)}
