@@ -41,10 +41,11 @@
 <header class="hero" id="top">
   <div class="wrap hero-grid">
     <div>
+      <p class="hello">Hello, I'm</p>
       <h1>Rahma Mohamed</h1>
       <p class="role">Front-End Developer</p>
       <p class="info">Systems &amp; Computer Engineering graduate, Al-Azhar University. Ranked 3rd in class, 2026.</p>
-      <p class="lede">I turn designs and ideas into <b>fast, accessible</b> pages with HTML, CSS, JavaScript and React, tested on every screen size before they ship.</p>
+      <p class="lede">I help small businesses get <b>fast, mobile-friendly</b> websites that turn visitors into customers, built with HTML, CSS, JavaScript and React.</p>
       <div class="cta-row">
         <a class="btn btn-solid" href="Rahma_Mohammed_CV.pdf" target="_blank" rel="noopener">View my CV</a>
         <a class="btn btn-ghost" href="#work">See my work</a>
@@ -99,6 +100,10 @@
         <p>Your Figma file, PSD or reference site turned into pixel-accurate HTML and CSS, with real semantic markup instead of stacked divs.</p>
       </article>
       <article class="service">
+        <h3>JavaScript interactions</h3>
+        <p>Menus, sliders, tabs, form validation, scroll effects and theme toggles added on top of your existing design, in clean JavaScript that keeps the look you chose.</p>
+      </article>
+      <article class="service">
         <h3>React interfaces</h3>
         <p>Reusable components, props and state wired up properly: forms, filters, tabs, galleries and dynamic sections that stay maintainable.</p>
       </article>
@@ -115,8 +120,8 @@
         <p>Numbers cleaned with Python and Pandas, then shown as clear charts and reports so decisions are easier to make.</p>
       </article>
       <article class="service">
-        <h3>Fixes &amp; improvements</h3>
-        <p>Broken mobile layouts, overlapping sections, slow-loading images or a site that looks wrong in one browser, diagnosed and repaired.</p>
+        <h3>Responsive fixes</h3>
+        <p>If your site isn't responsive yet, I fix it in the code: broken mobile layouts, overlapping sections, oversized images or a page that looks wrong in one browser.</p>
       </article>
       <article class="service">
         <h3>Deployment</h3>
@@ -144,27 +149,15 @@
         </ul>
       </div>
       <div class="skillset">
-        <h3>Programming &amp; computer science</h3>
+        <h3>Also comfortable with</h3>
         <ul class="tags">
-          <li>Python</li><li>Java</li><li>C++</li><li>Object-Oriented Programming (Java)</li><li>Data Structures</li><li>Algorithms Analysis &amp; Design</li>
-        </ul>
-      </div>
-      <div class="skillset">
-        <h3>Software engineering &amp; databases</h3>
-        <ul class="tags">
-          <li>Introduction to Software Engineering</li><li>Advanced Software Engineering</li><li>Web Technology</li><li>Database Systems</li><li>SQL</li>
-        </ul>
-      </div>
-      <div class="skillset">
-        <h3>AI &amp; data analysis</h3>
-        <ul class="tags">
-          <li>Artificial Intelligence</li><li>Machine Learning Fundamentals</li><li>Data Analysis</li><li>Scikit-learn</li><li>Pandas</li><li>NumPy</li><li>Power BI</li><li>Generative AI</li>
+          <li>Python</li><li>SQL</li><li>FastAPI</li><li>Pandas</li><li>Power BI</li><li>Machine learning basics</li>
         </ul>
       </div>
       <div class="skillset">
         <h3>Workflow</h3>
         <ul class="tags">
-          <li>Git</li><li>GitHub</li><li>GitHub Pages</li><li>FastAPI</li><li>Chrome DevTools</li><li>Cross-browser testing</li><li>Accessible markup</li>
+          <li>Git</li><li>GitHub</li><li>GitHub Pages</li><li>Chrome DevTools</li><li>Cross-browser testing</li><li>Accessible markup</li>
         </ul>
       </div>
       <div class="skillset">
@@ -180,7 +173,25 @@
 <section id="work">
   <div class="wrap">
     <h2>Selected work</h2>
-    <p class="sec-note">Three front-end builds: the problem, the tools I used, and what the client gets.</p>
+    <p class="sec-note">Four front-end builds: the problem, the tools I used, and what the client gets.</p>
+
+    <article class="project">
+      <figure class="shot" data-tone="glowcraft">
+        <img src="images/glowcraft.webp" alt="About page of GlowCraft in light mode, with the mission, reasons to choose the store and a photo of skincare products" width="1200" height="548" loading="lazy">
+      </figure>
+      <div class="pbody">
+        <h3>GlowCraft: skincare store (ITI graduation project)</h3>
+        <p class="ptags">React · Vite · JSON Server · Arabic &amp; English · Light &amp; dark theme</p>
+        <p class="pblock"><b>The problem.</b> Skincare shopping can feel confusing, so the store's mission is to make it simple, accessible and empowering for everyone.</p>
+        <p class="pblock"><b>What I used.</b> A graduation project built with my ITI team of seven in React, Vite and a JSON Server API: product browsing with filters, a product page, cart and checkout, login and register with validation (guest and logged-in experiences) and an admin dashboard with full CRUD. Our three extra features are a Skin Routine Finder, an Ingredient &amp; Expiry Tracker, and Product Comparison &amp; Wishlist. My part was the About page, the dark and light mode and the Arabic and English support, built with React Context.</p>
+        <p class="pblock"><b>The result.</b> A fully responsive store in light and dark mode, in English and Arabic. Along the way I learned to split work across a team, manage branches and pull requests on GitHub, and review each other's work to deliver one consistent product from seven pieces.</p>
+        <p class="plinks">
+          <a class="link" href="https://glow-craft-finally.vercel.app" target="_blank" rel="noopener">View live site</a>
+          <a class="link" href="https://github.com/EmanOsman621/GlowCraft-finally-" target="_blank" rel="noopener">View code on GitHub</a>
+          <a class="link" href="https://www.linkedin.com/posts/eman-osman-7a023929b_iti-informationtechnologyinstitute-react-ugcPost-7512961512655994880-fOKy/" target="_blank" rel="noopener">Watch the demo on LinkedIn</a>
+        </p>
+      </div>
+    </article>
 
     <article class="project">
       <figure class="shot" data-tone="bakery">
@@ -239,9 +250,43 @@
       </div>
       <div>
         <ul class="cert-list">
+          <li><b>Front-End Development (React)</b> — Information Technology Institute (ITI), 2026</li>
           <li><b>Front-End Development (React)</b> — Digital Egypt Pioneers Initiative (DEPI), 2026–present</li>
         </ul>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <h2>Experience</h2>
+    <p class="sec-note">Hands-on training and projects I build as I learn.</p>
+    <div class="degree">
+      <h3>Front-End Development Trainee (React)</h3>
+      <p>Digital Egypt Pioneers Initiative (DEPI)</p>
+      <p>Hands-on training in building responsive, accessible interfaces with HTML, CSS, JavaScript and React. I turn each concept into a real project, like the websites in my Work section.</p>
+      <span class="rank">2026 – Present</span>
+    </div>
+    <div class="degree">
+      <h3>Front-End Development Trainee (React)</h3>
+      <p>Information Technology Institute (ITI)</p>
+      <p>Completed a React front-end training program and finished it with a graduation project.</p>
+      <span class="rank">2026</span>
+    </div>
+    <!-- To add another experience (freelance job, internship, volunteer work), copy the whole <div class="degree"> block above and edit the text. -->
+  </div>
+</section>
+
+<section id="testimonials">
+  <div class="wrap">
+    <h2>Testimonials</h2>
+    <p class="sec-note">Feedback on my work. More testimonials will be added as I finish new projects.</p>
+    <div class="quotes">
+      <figure class="quote">
+        <blockquote>&ldquo;Beautiful projects and respectable work.&rdquo;</blockquote>
+        <figcaption><b>Instructor, ITI React training</b> &middot; Feedback on the graduation projects (translated from Arabic)</figcaption>
+      </figure>
     </div>
   </div>
 </section>
